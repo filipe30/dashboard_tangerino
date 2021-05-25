@@ -1,0 +1,34 @@
+.menu-responsive{
+    display: none !important;
+}
+@media(max-width: 990px){
+    .sidebar{
+        display: none!important;
+    }
+    .content{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .menu-responsive{
+        display: flex !important;
+        background:  #FF5F11!important;
+    }
+    .menu-responsive a{
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+       
+    }
+    .menu-responsive li{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .menu-responsive ul{
+        padding-left: 0;
+    }
+    .nav-toggler{
+        margin-left: 20px;
+    }
+}

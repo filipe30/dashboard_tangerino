@@ -1,0 +1,80 @@
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+sidebar{
+    display: block;
+    height: 100%;
+    width: 250px;
+    background-color: #FF5F11;
+    border-right:  1px solid #BCB8B1;
+}
+
+.sidebar-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #BCB8B1;
+}
+
+.logo-img{
+    width: 160px;
+    margin: auto;
+}
+
+.content{
+    width: calc(100% - 250px);
+    height: 100%;
+    background-color: #F4F3EE;
+    overflow: scroll;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 250px);
+    height: 50px;
+    padding: 10px 30px;
+    border: 1px solid #BCB8B1;
+    border-top: none;
+    border-left: none;
+    position: fixed;
+    background-color: #FF5F11;
+}
+
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    border-bottom: 1px solid #BCB8B1;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: hsl(20, 70%, 62%);
+    transition: 0.2s ease-in;
+}
+
+.fa-briefcase, .fa-product-hunt, .fa-address-card, .fa-bullhorn, .fa-id-card-alt, .fa-hand-holding-usd, .fa-microchip, .fa-tachometer-alt, .fa-sign-out-alt{
+    margin-right: 10px;
+}
+
