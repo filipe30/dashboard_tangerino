@@ -1,5 +1,5 @@
-var ctx = document.getElementsByClassName("bar-chart-1");
-        var chartGraph = new Chart(ctx,{
+var ctx1 = document.getElementsByClassName("bar-chart-1");
+        var chartGraph1 = new Chart(ctx1,{
             type:'bar',
             data: {
         labels: ['Administração', 'RH', 'Comercial', 'Financeiro', 'Produção', 'TI', 'Marketing'],
@@ -34,8 +34,8 @@ var ctx = document.getElementsByClassName("bar-chart-1");
     }
 });
 
-var ctx = document.getElementsByClassName("pie-chart-1");
-        var chartGraph = new Chart(ctx,{
+var ctx2 = document.getElementsByClassName("pie-chart-1");
+        var chartGraph2 = new Chart(ctx2,{
             type:'pie',
             data: {
         labels: ['Pontos Ativos', 'Pontos Pedentes'],
@@ -53,8 +53,9 @@ var ctx = document.getElementsByClassName("pie-chart-1");
     },
    
 });
-var ctx = document.getElementsByClassName("line-chart-admin");
-        var chartGraph = new Chart(ctx,{
+
+var ctx3 = document.getElementsByClassName("line-chart-admin");
+        var chartGraph3 = new Chart(ctx3,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -85,8 +86,9 @@ var ctx = document.getElementsByClassName("line-chart-admin");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart-rh");
-        var chartGraph = new Chart(ctx,{
+
+var ctx4 = document.getElementsByClassName("line-chart-rh");
+        var chartGraph4 = new Chart(ctx4,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -117,8 +119,9 @@ var ctx = document.getElementsByClassName("line-chart-rh");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart-com");
-        var chartGraph = new Chart(ctx,{
+
+var ctx5 = document.getElementsByClassName("line-chart-com");
+        var chartGraph5 = new Chart(ctx5,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -149,8 +152,9 @@ var ctx = document.getElementsByClassName("line-chart-com");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart-fin");
-        var chartGraph = new Chart(ctx,{
+
+var ctx6 = document.getElementsByClassName("line-chart-fin");
+        var chartGraph6 = new Chart(ctx6,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -181,8 +185,9 @@ var ctx = document.getElementsByClassName("line-chart-fin");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart-prod");
-        var chartGraph = new Chart(ctx,{
+
+var ctx7 = document.getElementsByClassName("line-chart-prod");
+        var chartGraph7 = new Chart(ctx7,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -213,8 +218,9 @@ var ctx = document.getElementsByClassName("line-chart-prod");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart-ti");
-        var chartGraph = new Chart(ctx,{
+
+var ctx8 = document.getElementsByClassName("line-chart-ti");
+        var chartGraph8 = new Chart(ctx8,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -245,8 +251,9 @@ var ctx = document.getElementsByClassName("line-chart-ti");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart-mkt");
-        var chartGraph = new Chart(ctx,{
+
+var ctx9 = document.getElementsByClassName("line-chart-mkt");
+        var chartGraph9 = new Chart(ctx9,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -277,8 +284,9 @@ var ctx = document.getElementsByClassName("line-chart-mkt");
         }
     }
 });
-var ctx = document.getElementsByClassName("line-chart");
-        var chartGraph = new Chart(ctx,{
+
+var ctx10 = document.getElementsByClassName("line-chart");
+        var chartGraph10 = new Chart(ctx10,{
             type:'line',
             data: {
         labels: ['Sem Presença', 'Ponto Aberto', 'Ponto Fechado', 'Férias'],
@@ -310,8 +318,8 @@ var ctx = document.getElementsByClassName("line-chart");
     }
 });
 
-var ctx = document.getElementsByClassName("pie-chart-2");
-        var chartGraph = new Chart(ctx,{
+var ctx11 = document.getElementsByClassName("pie-chart-2");
+        var chartGraph11 = new Chart(ctx11,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -325,11 +333,11 @@ var ctx = document.getElementsByClassName("pie-chart-2");
          
             hoverOffset: 4
                 }]
-    },
-   
+    }, 
 });
-var ctx = document.getElementsByClassName("pie-chart-admin");
-        var chartGraph = new Chart(ctx,{
+
+var ctx12 = document.getElementsByClassName("pie-chart-admin");
+        var chartGraph12 = new Chart(ctx12,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -346,8 +354,9 @@ var ctx = document.getElementsByClassName("pie-chart-admin");
     },
    
 });
-var ctx = document.getElementsByClassName("pie-chart-rh");
-        var chartGraph = new Chart(ctx,{
+
+var ctx13 = document.getElementsByClassName("pie-chart-rh");
+        var chartGraph13 = new Chart(ctx13,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -364,8 +373,8 @@ var ctx = document.getElementsByClassName("pie-chart-rh");
     },
    
 });
-var ctx = document.getElementsByClassName("pie-chart-com");
-        var chartGraph = new Chart(ctx,{
+var ctx14 = document.getElementsByClassName("pie-chart-com");
+        var chartGraph14 = new Chart(ctx14,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -382,8 +391,9 @@ var ctx = document.getElementsByClassName("pie-chart-com");
     },
    
 });
-var ctx = document.getElementsByClassName("pie-chart-fin");
-        var chartGraph = new Chart(ctx,{
+
+var ctx15 = document.getElementsByClassName("pie-chart-fin");
+        var chartGraph15 = new Chart(ctx15,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -400,8 +410,8 @@ var ctx = document.getElementsByClassName("pie-chart-fin");
     },
    
 });
-var ctx = document.getElementsByClassName("pie-chart-prod");
-        var chartGraph = new Chart(ctx,{
+var ctx16 = document.getElementsByClassName("pie-chart-prod");
+        var chartGraph16 = new Chart(ctx16,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -418,8 +428,9 @@ var ctx = document.getElementsByClassName("pie-chart-prod");
     },
    
 });
-var ctx = document.getElementsByClassName("pie-chart-ti");
-        var chartGraph = new Chart(ctx,{
+
+var ctx17 = document.getElementsByClassName("pie-chart-ti");
+        var chartGraph17 = new Chart(ctx17,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -433,11 +444,11 @@ var ctx = document.getElementsByClassName("pie-chart-ti");
          
             hoverOffset: 4
                 }]
-    },
-   
+    },   
 });
-var ctx = document.getElementsByClassName("pie-chart-mkt");
-        var chartGraph = new Chart(ctx,{
+
+var ctx18 = document.getElementsByClassName("pie-chart-mkt");
+        var chartGraph18 = new Chart(ctx18,{
             type:'pie',
             data: {
         labels: ['Horas Extras'],
@@ -455,8 +466,8 @@ var ctx = document.getElementsByClassName("pie-chart-mkt");
    
 });
 
-var ctx = document.getElementsByClassName("pie-chart-3");
-        var chartGraph = new Chart(ctx,{
+var ctx19 = document.getElementsByClassName("pie-chart-3");
+        var chartGraph19 = new Chart(ctx19,{
             type:'pie',
             data: {
         labels: ['Atrasos'],
@@ -473,8 +484,8 @@ var ctx = document.getElementsByClassName("pie-chart-3");
    
 });
 
-var ctx = document.getElementsByClassName("pie-chart-4");
-        var chartGraph = new Chart(ctx,{
+var ctx20 = document.getElementsByClassName("pie-chart-4");
+        var chartGraph20 = new Chart(ctx20,{
             type:'pie',
             data: {
         labels: ['Faltas'],
